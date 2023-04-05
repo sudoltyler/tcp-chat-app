@@ -1,4 +1,4 @@
-#Java TCP Chat Application - *Spring 2022*
+# Java TCP Chat Application - *Spring 2022*
 This project contains server and client applications for a simple chatroom.
 Opening a new instance gives an option to create a client or server. Multiple
 clients can connect to one server and communicate with each other, either 
