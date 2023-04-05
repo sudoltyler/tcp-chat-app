@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="root" prefHeight="500.0" prefWidth="600.0" styleClass="borderpane" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ApplicationStartController">
+   <center>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="300.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="20.0" right="20.0" top="10.0"/>
+         </BorderPane.margin>
+         <Button mnemonicParsing="false" onAction="#startServer" prefHeight="300.0" prefWidth="130.0" text="Server"/>
+         <Button mnemonicParsing="false" onAction="#startClient" prefHeight="300.0" prefWidth="130.0" text="Client"/>
+      </HBox>
+   </center>
+</BorderPane>
